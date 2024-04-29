@@ -11,3 +11,5 @@ EAV configuration
 # Arguments section
 
 -g 192.168.0.2 -v vip1 -b BIG-IPVE16-A.local
+
+Note: This really shouldn't be run frequently as it's generally a heavy lift compared to a tcp-half-open monitor. imo. Minimum rate should be 10/31 vs default 5/16
